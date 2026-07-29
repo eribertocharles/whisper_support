@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Support — Whisper Speak</title>
+<meta name="robots" content="index">
+<style>
+  :root { color-scheme: light dark; }
+  body {
+    font: 17px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    max-width: 44rem; margin: 0 auto; padding: 2.5rem 1.25rem 4rem;
+    color: #1c1c1e; background: #fff;
+  }
+  @media (prefers-color-scheme: dark) { body { color: #e5e5e7; background: #000; } a { color: #6fb2ff; } }
+  h1 { font-size: 2rem; line-height: 1.2; margin: 0 0 .25rem; }
+  h2 { font-size: 1.25rem; margin: 2rem 0 .5rem; }
+  h3 { font-size: 1.05rem; margin: 1.5rem 0 .35rem; }
+  .updated { color: #8a8a8e; font-size: .95rem; margin: 0 0 1.75rem; }
+  .lede { font-size: 1.1rem; }
+  strong { font-weight: 650; }
+  a { color: #0066cc; }
+  hr { border: none; border-top: 1px solid rgba(128,128,128,.3); margin: 2.5rem 0 1.5rem; }
+  footer { color: #8a8a8e; font-size: .95rem; }
+  .contact p { margin: .15rem 0; }
+</style>
+</head>
+<body>
+
+<h1>Support — Whisper Speak</h1>
+<p class="updated">Last updated: 29 July 2026</p>
+
+<p class="lede">Whisper Speak records, transcribes, labels speakers, summarizes, and translates —
+<strong>entirely on your iPhone</strong>. This page covers the questions that come up most, and is
+honest about where automatic features have limits.</p>
+
+<h2>Getting started</h2>
+<p>Tap the mic on the Home tab and start speaking; tap Done when you finish. To transcribe an
+existing audio file (m4a, mp3, wav…), use the <strong>Import</strong> tab. Everything is saved to
+<strong>History</strong> automatically, and nothing needs an account or an internet connection.</p>
+
+<h2>Speaker labels</h2>
+<h3>How do speaker labels work?</h3>
+<p>Whisper Speak tells voices apart on-device and labels their turns "Speaker 1", "Speaker 2", and so
+on. Tap any speaker's name in a transcript to <strong>rename</strong> them.</p>
+
+<h3>The app split one person into two speakers — or mixed two people up</h3>
+<p>Automatic speaker detection is good but not perfect; its most common miss is splitting one person
+into two labels across a long silence. The fix is built in: <strong>tap the speaker's name and choose
+Merge</strong>. If a merge turns out to be wrong, <strong>Restore Original Speakers</strong> (on the
+transcript screen) puts back what was originally detected. Nothing is ever lost to a wrong guess.</p>
+
+<h3>Can I turn speaker labels off?</h3>
+<p>Yes — Settings → <strong>Label Speakers</strong>. With it off, recordings transcribe faster as
+plain text. Existing transcripts keep their labels either way.</p>
+
+<h2>Translation</h2>
+<h3>How does translation work?</h3>
+<p>Translation runs on your iPhone using Apple's on-device translation. Picking a language marked
+with a download arrow fetches that language once; your transcript never leaves the device. The
+original transcript is always kept — switch between versions above the text.</p>
+
+<h3>The translation reads oddly in places</h3>
+<p>On-device translation handles clear sentences well but can be literal with idioms and casual
+speech ("I've gone off soups" may not survive the trip). Two tips: speech that transcribed cleanly
+translates better, and the original is always there to check against. For critical documents,
+treat the translation as a strong draft.</p>
+
+<h2>Transcription</h2>
+<h3>The transcript came out in the wrong language</h3>
+<p>Set the language in Settings → <strong>Language</strong>, then use <strong>Transcribe Again</strong>
+from the transcript's ⋯ menu — it re-runs the full model over your saved audio.</p>
+
+<h3>My transcript is empty</h3>
+<p>If no speech was detected, the transcript stays empty rather than inventing words. If you expected
+words, check the language setting and try Transcribe Again. If a recording was interrupted (a call,
+a force-quit), it appears as a <strong>Recovered recording</strong> with its audio saved — Transcribe
+runs the full model over it.</p>
+
+<h3>Which transcription engines are there?</h3>
+<p><strong>Apple Speech</strong> runs instantly with no download. <strong>Whisper</strong> covers more
+languages and needs a one-time download of about 630 MB. Switch in Settings → Engine. The optional
+on-device summarizer is a separate one-time download (about 880 MB); both can be removed again in
+Settings.</p>
+
+<h2>Your data</h2>
+<h3>Deleting recordings</h3>
+<p>Deleting a recording removes the transcript <strong>and its audio</strong> from your iPhone
+permanently — there is no trash to recover from, which is why every delete asks first.</p>
+
+<h3>Exporting</h3>
+<p>Share any transcript as text, Markdown, PDF, Word, SRT, or VTT — and the audio itself — from the
+share button on the transcript screen.</p>
+
+<h2>Requirements</h2>
+<p>Whisper Speak runs on <strong>iPhone 11 and newer</strong> with <strong>iOS 26.5 or later</strong>.
+iPhone only — no iPad or Mac version at this time.</p>
+
+<h2>Contact</h2>
+<div class="contact">
+  <p>Questions, problems, or suggestions:</p>
+  <p><strong>Charles Atreides</strong></p>
+  <p><strong>charles.atreides@proton.me</strong></p>
+</div>
+
+<hr>
+<footer>Whisper Speak performs speech recognition, speaker diarization, summarization, and translation
+entirely on your device. Audio and transcripts never leave your iPhone. See the
+<a href="https://eribertocharles.github.io/whisper_privacy/">privacy policy</a>.</footer>
+
+</body>
+</html>
