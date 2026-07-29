@@ -31,24 +31,27 @@
 <p class="updated">Last updated: 29 July 2026</p>
 
 <p class="lede">Whisper Speak records, transcribes, labels speakers, summarizes, and translates —
-<strong>entirely on your iPhone</strong>. This page covers the questions that come up most, and is
-honest about where speaker labels and translations can miss — and how to fix them when they do.</p>
+<strong>entirely on your iPhone</strong>. This page answers the most common questions. It is also
+honest about the mistakes speaker labels and translations can make — and how to fix them.</p>
 
 <h2>Getting started</h2>
-<p>Tap the mic on the Home tab and start speaking; tap Done when you finish. To transcribe an
-existing audio file (m4a, mp3, wav…), use the <strong>Import</strong> tab. Everything is saved to
-<strong>History</strong> automatically, and nothing needs an account or an internet connection.</p>
+<p>Tap the mic on the Home tab and start speaking; tap Done when you finish. To transcribe a
+recording you already have — a voice memo, or an audio file someone sent you — use the
+<strong>Import</strong> tab. All the common audio types (m4a, mp3, wav) work. Everything is saved to
+<strong>History</strong> automatically. There is no account to create, and no internet connection
+needed.</p>
 
 <h2>Speaker labels</h2>
 <h3>How do speaker labels work?</h3>
-<p>Whisper Speak tells voices apart on-device and labels their turns "Speaker 1", "Speaker 2", and so
-on. Tap any speaker's name in a transcript to <strong>rename</strong> them.</p>
+<p>Whisper Speak tells voices apart and labels their turns "Speaker 1", "Speaker 2", and so on —
+all on your iPhone. Tap any speaker's name in a transcript to <strong>rename</strong> them.</p>
 
 <h3>The app split one person into two speakers — or mixed two people up</h3>
-<p>Automatic speaker detection is good but not perfect; its most common miss is splitting one person
-into two labels across a long silence. The fix is built in: <strong>tap the speaker's name and choose
-Merge</strong>. If a merge turns out to be wrong, <strong>Restore Original Speakers</strong> (on the
-transcript screen) puts back what was originally detected. Nothing is ever lost to a wrong guess.</p>
+<p>Automatic speaker detection is good but not perfect. Its most common mistake is giving one person
+two labels when there is a long pause between their sentences. The fix is built in: <strong>tap the
+speaker's name and choose Merge</strong>. If a merge turns out to be wrong, <strong>Restore Original
+Speakers</strong> (on the transcript screen) puts back what was first detected. Nothing is ever lost
+to a wrong guess.</p>
 
 <h3>Can I turn speaker labels off?</h3>
 <p>Yes — Settings → <strong>Label Speakers</strong>. With it off, recordings transcribe faster as
@@ -56,61 +59,64 @@ plain text. Existing transcripts keep their labels either way.</p>
 
 <h2>Translation</h2>
 <h3>How does translation work?</h3>
-<p>Translation runs on your iPhone using Apple's on-device translation. Picking a language marked
-with a download arrow fetches that language once; your transcript never leaves the device. The
-original transcript is always kept — switch between versions above the text.</p>
+<p>Translation happens on your iPhone, using Apple's translation. If a language shows a download
+arrow, choosing it downloads that language to your phone one time — after that it works without
+internet. Your transcript never leaves the device, and the original is always kept — switch between
+versions above the text.</p>
 
 <h3>The translation reads oddly in places</h3>
-<p>On-device translation handles clear sentences well but can be literal with idioms and casual
-speech ("I've gone off soups" may not survive the trip). Two tips: speech that transcribed cleanly
-translates better, and the original is always there to check against. For critical documents,
-treat the translation as a strong draft.</p>
+<p>Translation on your phone handles clear sentences well. But it can translate idioms and casual
+speech word for word — a phrase like "I've gone off soups" may come out with the wrong meaning.
+Two tips: speech that transcribed cleanly translates better, and the original is always there to
+check against. For important documents, treat the translation as a strong first draft.</p>
 
 <h2>Transcription</h2>
 <h3>The transcript came out in the wrong language</h3>
 <p>Set the language in Settings → <strong>Language</strong>, then use <strong>Transcribe Again</strong>
-from the transcript's ⋯ menu — it re-runs the full model over your saved audio.</p>
+from the transcript's ⋯ menu. It transcribes your saved audio again from the beginning, in the
+language you chose.</p>
 
 <h3>My transcript is empty</h3>
 <p>If no speech was detected, the transcript stays empty rather than inventing words. If you expected
-words, check the language setting and try Transcribe Again. If a recording was interrupted (a call,
-a force-quit), it appears as a <strong>Recovered recording</strong> with its audio saved — Transcribe
-runs the full model over it.</p>
+words, check the language setting and try Transcribe Again. If a recording was cut short — by a
+phone call, or because the app was closed mid-recording — it appears as a <strong>Recovered
+recording</strong> with its audio saved. Transcribe turns that saved audio into a full transcript.</p>
 
 <h3>Which transcription engines are there?</h3>
 <p><strong>Apple Speech</strong> runs instantly with no download. <strong>Whisper</strong> covers more
 languages and needs a one-time download of about 630 MB. Switch in Settings → Engine. The optional
-on-device summarizer is a separate one-time download (about 880 MB); both can be removed again in
-Settings.</p>
+summarizer is a separate one-time download (about 880 MB). You can remove Whisper or the summarizer
+at any time in Settings.</p>
 
 <h2>Your data</h2>
 <h3>Deleting recordings</h3>
 <p>Deleting a recording removes the transcript <strong>and its audio</strong> from your iPhone
-permanently — there is no trash to recover from, which is why every delete asks first.</p>
+permanently. There is no trash folder, so a deleted recording cannot be brought back. That is why
+the app always asks you to confirm first.</p>
 
 <h3>Exporting</h3>
 <p>Share any transcript as plain text, PDF, or Word — and the audio itself — from the share button
 on the transcript screen.</p>
 
-<h2>Why on-device?</h2>
+<h2>Why does everything stay on your iPhone?</h2>
 <p>Most transcription services upload your audio to their servers. Whisper Speak keeps everything on
-your iPhone, and that's a design decision, not a limitation: privacy that's structural rather than
-promised (audio that never leaves the device can't be breached, subpoenaed, or used for training),
-transcription that works anywhere — airplanes, dead zones, secure sites — and no account, because
-there's nothing to sign into.</p>
+your iPhone, and that is a design decision, not a limitation. Because your audio never leaves your
+phone, no one can steal it from a server, demand it in court, or use it to train AI. Transcription
+works anywhere — on a plane, in places with no signal, in secure buildings. And there is no account,
+because there is nothing to sign into.</p>
 
 <h3>How does accuracy compare to cloud AI?</h3>
-<p>Honestly: cloud services can apply more computing power than any phone, and some also identify
-speakers by reading your calendar and meeting apps rather than the audio alone. For transcription
-itself, the on-device models Whisper Speak uses are competitive with the best cloud engines on clear
-audio. Automatic speaker labels are where you may occasionally notice a difference — telling similar
-voices apart on a distant microphone is the hardest problem in the field — which is why every label
-in Whisper Speak is repairable with a tap: merge, rename, restore. The trade is deliberate. Their
-accuracy is paid for with your audio; yours stays yours.</p>
+<p>Honestly: internet-based services can use far bigger computers than any phone, and some identify
+speakers by reading your calendar and meeting apps, not just the audio. For clear recordings, the
+transcription Whisper Speak does on your phone is about as accurate as the big cloud services.
+Speaker labels are where you may sometimes notice a difference — telling similar voices apart on a
+far-away microphone is the hardest problem in this field. That is why every label can be fixed with
+a tap: merge, rename, restore. This is a choice we made on purpose. Cloud services get their
+accuracy by using your audio. With Whisper Speak, your audio stays with you.</p>
 
 <h2>Requirements</h2>
 <p>Whisper Speak runs on <strong>iPhone 11 and newer</strong> with <strong>iOS 26.5 or later</strong>.
-iPhone only — no iPad or Mac version at this time.</p>
+iPhone only — there is no iPad or Mac version at this time.</p>
 
 <h2>Contact</h2>
 <div class="contact">
@@ -120,8 +126,8 @@ iPhone only — no iPad or Mac version at this time.</p>
 </div>
 
 <hr>
-<footer>Whisper Speak performs speech recognition, speaker diarization, summarization, and translation
-entirely on your device. Audio and transcripts never leave your iPhone. See the
+<footer>Whisper Speak turns speech into text, labels speakers, summarizes, and translates — entirely
+on your iPhone. Your audio and transcripts never leave it. See the
 <a href="https://eribertocharles.github.io/whisper_privacy/">privacy policy</a>.</footer>
 
 </body>
